@@ -37,3 +37,7 @@ list-style-type: none;
 body{
   padding-left: 30%;
 }
+
+input.error{
+    background-color:rgb(255, 231, 231);
+}
