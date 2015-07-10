@@ -27,11 +27,13 @@
 
 #navigation_links
 {
-margin: 0;
 padding: 0;
 list-style-type: none;
-text-align: center;
-float:right;
 }
 
-#navigation_links li { display: inline; padding-left: 10px; }
+#navigation_links li { display: inline; padding-left: 10px;}
+
+
+body{
+  padding-left: 30%;
+}
