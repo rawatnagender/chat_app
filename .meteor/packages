@@ -7,3 +7,8 @@
 meteor-platform
 accounts-password
 accounts-ui
+accounts-twitter
+mizzao:bootstrap-3
+autopublish
+insecure
+iron:router

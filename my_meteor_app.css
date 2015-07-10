@@ -1,4 +1,37 @@
-/* CSS declarations go here */
-.selected{
-    background-color: yellow;
+[name=todoItem]{
+    border:none;
+    font-family: "Times New Roman";
+    font-size: 100%;
+    padding:0.15em;
+    background-color: #f9f9f9;
+    cursor:pointer;
+    background-color: #f9f9f9;
+    cursor:default;
+    outline:none;
 }
+
+.checked{
+    background-color:#f0f0f0;
+    color:#666;
+}
+
+.checked [name=todoName]{
+    text-decoration: line-through;
+}
+
+.checked [name=todoName],
+.checked [name=todoName]:hover,
+.checked [name=todoName]:focus{
+    background-color:#f0f0f0;
+}
+
+#navigation_links
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+float:right;
+}
+
+#navigation_links li { display: inline; padding-left: 10px; }
